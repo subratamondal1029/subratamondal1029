@@ -16,7 +16,6 @@
 
 * 🌱 Currently learning **C** for a deeper understanding of how computers and programming languages work
 * 🛠️ Experienced in **HTML, CSS, JavaScript, Node.js, Express, MongoDB**
-* ⚡ Prefer using **pnpm** instead of npm for better performance
 * 💡 Always exploring new tech and building projects that connect **software with real-world hardware**
 
 ---

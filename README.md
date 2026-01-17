@@ -1,22 +1,22 @@
 # 👋 Hi, I'm Subrata Mondal
 
-💻 **MERN Stack Developer** | 🚀 Passionate about **AI & Automation** | 🔧 Love to control **hardware with software**
+💻 **MERN Stack Developer** | 🚀 Passionate about **AI & Automation**
 
 ---
 
 ## 🚀 Top Projects
 
-- [**TechKart**](https://github.com/subratamondal1029/techkart): A dynamic e-commerce platform.
-- [**PlayTube**](https://github.com/subratamondal1029/PlayTube): A feature-rich video streaming application.
-- [**code-orbit**](https://github.com/subratamondal1029/code-orbit): Exploring new coding horizons.
+- [**TechKart**](https://github.com/subratamondal1029/techkart): A E commerce website with mern stack. Functionality starts from product management to delivery with multi-role Dashboards.
+- [**Resume Reviewer**](https://github.com/subratamondal1029/resume-analyzer): A resume reviewer to test the resume in comparison to a certain employment criteria with reasoning. ORC support with tesseract OCR.
+- [**PlayTube**](https://github.com/subratamondal1029/PlayTube): A feature-rich video streaming backend application.
 
 ---
 
 ## 🌟 About Me
 
 * 🌱 Currently learning **C** for a deeper understanding of how computers and programming languages work
-* 🛠️ Experienced in **HTML, CSS, JavaScript, Node.js, Express, MongoDB**
-* 💡 Always exploring new tech and building projects that connect **software with real-world hardware**
+* 🛠️ Experienced in **HTML, CSS, JavaScript, Typescript, Node.js, Express, MongoDB**
+* 💡 Always exploring new tech and building projects that connect burn my brain
 
 ---
 

@@ -14,8 +14,8 @@
 
 ## 🌟 About Me
 
-* 🌱 Currently learning **C** for a deeper understanding of how computers and programming languages work
-* 🛠️ Experienced in **HTML, CSS, JavaScript, Typescript, Node.js, Express, MongoDB**
+* 🌱 Currently learning about **ML** for make my backend applications more powerfull.
+* 🛠️ Experienced in **HTML, CSS, JavaScript, Typescript, Python, React.js, Node.js, Express, MongoDB, PostgreSQL**
 * 💡 Always exploring new tech and building projects that connect burn my brain
 
 ---
@@ -24,7 +24,7 @@
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subratamondal@tutanota.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subratamondal1029)
-[![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=vercel&logoColor=white)](https://subratamondal.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=google-chrome&logoColor=white)](https://subratamondal.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subratamondal1029)
 
 ---

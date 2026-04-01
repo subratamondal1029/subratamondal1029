@@ -1,0 +1,224 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% only for pdflatex
+% \input{glyphtounicode}
+
+% fontawesome
+\usepackage{fontawesome5}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underilne
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+%% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting - serif
+% \titleformat{\section}{
+%   \vspace{2pt} \scshape \raggedright\large % header section
+% }{}{0em}{}[\color{black} \titlerule \vspace{-5pt}]
+
+% TODO EBSERIES
+% sans serif sections
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \raggedright \large % header section
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+% only for pdflatex
+% Ensure that generate pdf is machine readable/ATS parsable
+% \pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\ % top row of resume entry
+      \textit{#3} & {\color{dark-grey} \small #4}\\ % second row of resume entry
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small#2} \\[2pt]
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% CHANGED default leftmargin  0.15 in
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Subrata Mondal} \\ \vspace{5pt}
+    \small \faPhone* \texttt{9832674420} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \href{mailto:subratamondal@tutanota.com}{\texttt{subratamondal@tutanota.com}} \hspace{1pt} $|$ 
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/subratamondal1029}{\texttt{subratamondal1029}} \hspace{1pt} $|$
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/subratamondal1029}{\texttt{subratamondal1029}} \hspace{1pt}
+    \\ \vspace{2pt}
+    \faGlobe \hspace{2pt} \href{https://subratamondal.vercel.app}{\texttt{subratamondal.vercel.app}} \hspace{1pt}
+    \\ \vspace{-3pt}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+    \begin{tabular}{@{}p{0.48\linewidth} p{0.48\linewidth}@{}}
+     \textbf{Languages} {: JavaScript, TypeScript, Python} &
+     \textbf{Frontend}  {: React.js, HTML, CSS, TailwindCSS, Redux} \\[4pt]
+     \textbf{Database}  {: MongoDB, PostgreSQL, Redis} &
+     \textbf{Backend}   {: Node.js, Express.js, Next.js} \\[4pt]
+     \multicolumn{2}{@{}l}{\textbf{Tools} {: Git, GitHub CI/CD, Linux, Docker, OpenCV}}
+    \end{tabular}
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{CLIENT WORK}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Arabinda Kajli}{Oct 2025 -- Nov 2025}
+      {Web Developer (\href{https://arabindakajli.in}{\myuline {Portfolio}})}{Remote}
+    \resumeItemListStart
+        \resumeItem{Built a \textbf{personal portfolio website} with custom \textbf{admin panel} for content management using React, TypeScript, and Tailwind CSS}
+        \resumeItem{Integrated \textbf{Quill rich text editor} with \textbf{Appwrite} backend for auth, database, and file storage; managed global state via \textbf{Redux}}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+
+\section{PROJECTS}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{TechKart -- Full-Stack E-Commerce Platform}}
+      {\href{https://github.com/subratamondal1029/techkart}{\myuline{Code}}
+      $|$ \href{https://techkart.dedyn.io}{\myuline{Live}}}
+      {\small\emph{MERN, Tailwind CSS, Razorpay, Redis, Docker, Nginx, AWS}}
+      \resumeItemListStart
+        \resumeItem{Built a multi-role e-commerce platform (user, seller, shipment master, delivery agent) with secure \textbf{30+} REST APIs using \textbf{JWT + refresh tokens} and role-based access control}
+        \resumeItem{Integrated \textbf{Razorpay} payments, Google OAuth, and \textbf{Redis} and \textbf{nodemailer}-based password recovery system}
+        \resumeItem{Engineered backend features including \textbf{rate limiting, cron jobs, invoice PDF generation, response caching}, and \textbf{Swagger} API documentation}
+        \resumeItem{Built a \textbf{Redux-powered} React frontend with infinite scroll, optimistic UI updates, and QR code scanning for order tracking}
+        \resumeItem{Deployed via \textbf{Docker Compose + Nginx} on \textbf{AWS} using \textbf{CI/CD} with production-grade configuration}
+      \resumeItemListEnd
+          
+    \resumeProjectHeading
+      {\textbf{YouTube Doubt Clearer -- AI-Powered Video Q\&A Chatbot}}
+      {\href{https://github.com/subratamondal1029/youtube-doubt}{\myuline{Code}}
+      $|$ \href{https://youtube-doubt.vercel.app}{\myuline{Live}}}
+      {\small\emph{Next.js, YouTube API, Sarvam AI, PostgreSQL}}
+    \resumeItemListStart
+      \resumeItem{Built multilingual AI chatbot for Indian students to ask doubts on any YouTube video with \textbf{Bengali, Hindi, English, and Hinglish} support}
+      \resumeItem{Backend pipeline fetches metadata + subtitles via \textbf{YouTube API}, chunks into \textbf{40s intervals}, and stores in \textbf{PostgreSQL} with deduplication}
+      \resumeItem{Injects \textbf{$\pm$90s timestamp-aware} subtitle context into dynamic prompts; streams \textbf{Sarvam AI} response with mid-stream parsing to split reasoning and final answer}
+      \resumeItem{\textbf{Next.js} frontend with inline video + side-by-side chat; enforced code quality via pre-push \textbf{CI} and \textbf{CodeRabbit}}
+    \resumeItemListEnd
+          
+    \resumeProjectHeading
+    {\textbf{Resume Analyzer -- AI-Based Resume Screening System}} 
+    {\href{https://github.com/subratamondal1029/resume-analyzer}{\myuline{Code}}}
+    {\small\emph{Node.js, Express, Docker, Tesseract OCR, Gemini AI, SSE}}
+    \resumeItemListStart
+    \resumeItem{Built AI resume screening web application that score candidate based on job requirements with structured \textbf{Gemini AI} response (score, reasoning, evidence)}
+    \resumeItem{Processes \textbf{5+} pages text or scanned PDFs via \textbf{Dockerized Tesseract OCR server} and streams real-time evaluation updates using \textbf{Server-Sent Events (SSE)}}
+    \resumeItemListEnd      
+          
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section {EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shoolini University}{Aug. 2025 -- Present}
+      {Bachelor of Computer Applications}{Online}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+

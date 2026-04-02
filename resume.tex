@@ -193,8 +193,8 @@
       {\small\emph{Next.js, YouTube API, Sarvam AI, PostgreSQL}}
     \resumeItemListStart
       \resumeItem{Built multilingual AI chatbot for Indian students to ask doubts on any YouTube video with \textbf{Bengali, Hindi, English, and Hinglish} support}
-      \resumeItem{Backend pipeline fetches metadata + subtitles via \textbf{YouTube API}, chunks into \textbf{40s intervals}, and stores in \textbf{PostgreSQL} with deduplication}
-      \resumeItem{Injects \textbf{$\pm$90s timestamp-aware} subtitle context into dynamic prompts; streams \textbf{Sarvam AI} response with mid-stream parsing to split reasoning and final answer}
+      \resumeItem{Backend pipeline fetches metadata + subtitles via \textbf{YouTube API}, chunks into \textbf{40s intervals}, and stores in \textbf{PostgreSQL} with deduplication; persists \textbf{conversation history} per session for multi-turn memory}
+      \resumeItem{Injects \textbf{$\pm$90s timestamp-aware} subtitle context alongside \textbf{chat history} into dynamic prompts; streams \textbf{Sarvam AI} response with mid-stream parsing to split reasoning and final answer}
       \resumeItem{\textbf{Next.js} frontend with inline video + side-by-side chat; enforced code quality via pre-push \textbf{CI} and \textbf{CodeRabbit}}
     \resumeItemListEnd
           
@@ -221,4 +221,3 @@
 
 %-------------------------------------------
 \end{document}
-

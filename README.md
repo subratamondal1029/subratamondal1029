@@ -8,7 +8,8 @@
 
 - [**TechKart**](https://github.com/subratamondal1029/techkart): An E-commerce website with mern stack. Functionality starts from product management to delivery with multi-role Dashboards.
 - [**Youtube-Doubt**](https://github.com/subratamondal1029/youtube-doubt): AI Chatbot for Indian Students That Understands Any YouTube Video and Answers in Bengali, Hindi, English & Hinglish.
-- [**Resume Reviewer**](https://github.com/subratamondal1029/resume-analyzer): Resume reviewer to test the resume in comparison to a certain employment criteria with reasoning. ORC support with tesseract OCR.
+- [**project-init (OSS)**](https://github.com/subratamondal1029/project-init): Bootstrap modern projects with a single command. Preconfigured with essential development tooling and best practices.
+- [**Resume Reviewer**](https://github.com/subratamondal1029/resume-analyzer): Resume reviewer to test the resume in comparison to a certain employment criteria with reasoning. OCR support with tesseract OCR.
 
 ---
 

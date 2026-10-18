@@ -1,23 +1,19 @@
 # 👋 Hi, I'm Subrata Mondal
 
-💻 **MERN Stack Developer** | 🚀 Passionate about **AI & Automation**
-
+💻 **MERN Stack Backend Developer** | 🤖 **Automating the boring stuff**
 ---
 
 ## 🚀 Top Projects
 
-- [**TechKart**](https://github.com/subratamondal1029/techkart): An E-commerce website with mern stack. Functionality starts from product management to delivery with multi-role Dashboards.
-- [**Youtube-Doubt**](https://github.com/subratamondal1029/youtube-doubt): AI Chatbot for Indian Students That Understands Any YouTube Video and Answers in Bengali, Hindi, English & Hinglish.
+- [**TechKart**](https://github.com/subratamondal1029/techkart): A full-stack e-commerce platform built with the MERN stack, covering end-to-end functionality from product management to delivery with multi-role dashboards.
+- [**Youtube-Doubt**](https://github.com/subratamondal1029/youtube-doubt): An AI chatbot for Indian students that understands any YouTube video and answers queries in Bengali, Hindi, English, and Hinglish.
+- [**NS Player**](https://github.com/subratamondal1029/ns-player): A cross-platform offline video player for Android and Linux that synchronizes playlist playback timestamps over a local network using React Native and Go, without requiring internet access. One of my daily driver applications.
 - [**project-init (OSS)**](https://github.com/subratamondal1029/project-init): Bootstrap modern projects with a single command. Preconfigured with essential development tooling and best practices.
-- [**Resume Reviewer**](https://github.com/subratamondal1029/resume-analyzer): Resume reviewer to test the resume in comparison to a certain employment criteria with reasoning. OCR support with tesseract OCR.
-
 ---
 
 ## 🌟 About Me
-
-* 🌱 Currently learning about **Computer vision**.
-* 🛠️ Experienced in **HTML, CSS, JavaScript, Typescript, Python, React.js, Next.js, Node.js, Express, MongoDB, PostgreSQL**
-* 💡 Always exploring new tech and building projects that connect burn my brain
+* 💡 Always exploring new tech and building challenging projects from scratch—never relying on tutorials.
+* 🛠️ Experienced in **JavaScript, TypeScript, Go, React.js, React Native, Next.js, Node.js, Express, MongoDB, PostgreSQL**
 
 ---
 
